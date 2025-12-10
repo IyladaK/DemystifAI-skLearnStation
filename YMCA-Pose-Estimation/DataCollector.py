@@ -80,11 +80,11 @@ df = pd.DataFrame(collected_data, columns=bodyParts)
 df['Label'] = LABEL # <-- adding a label column with the current collection letter
 
 # concatenating old and new dataframes
-db = pd.read_csv("pose_data.csv")
+db = pd.read_csv("YMCA-Pose-Estimation/pose_data.csv")
 add = input("add to database?")
 
 # if the data is not sound, you can choose to not add it
 if add == 'y':
-    pd.concat([db, df], ignore_index=True).to_csv("pose_data.csv", index=False)
+    pd.concat([db, df], ignore_index=True).to_csv("YMCA-Pose-Estimation/pose_data.csv", index=False)
 
 
