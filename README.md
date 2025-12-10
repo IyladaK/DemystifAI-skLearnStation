@@ -8,6 +8,7 @@ Required Packages:<br>
 pip install numpy<br>
 pip install matplotlib<br>
 pip install scikit-learn<br>
+<br>
 pip install joblib<br>
 pip install pygame<br>
 pip install opencv-python<br>
