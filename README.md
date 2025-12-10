@@ -2,6 +2,7 @@ For VsCode:
 - install jupyter extension
 - install python extension
 - Create a python virtual environment (venv) and use it as the kernel
+- if it prompts you to install ipykernel, do so
 
 Required Packages:
 - pip install numpy
