@@ -5,7 +5,7 @@ import pandas as pd
 import joblib
 
 # Here, we import the csv data that we collected and format them into Dataframes
-df = pd.read_csv('pose_data.csv')
+df = pd.read_csv('YMCA-Pose-Estimation/pose_data.csv')
 
 Y = df["Label"].values
 df = df.drop("Label", axis=1)
